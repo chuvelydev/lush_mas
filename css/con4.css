@@ -1,0 +1,174 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.con4 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: #111;
+}
+.con4bg {
+  width: 100%;
+  height: 100%;
+}
+
+.con4bg li img {
+  width: 100%;
+  height: 100%;
+}
+.con4bg ul {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.con4bg li {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.con4bg .on {
+  opacity: 0;
+  transition: 2s;
+}
+.con4bg .on1 {
+  opacity: 0;
+  transition: 2s;
+}
+.con4bg .on2 {
+  opacity: 0;
+  transition: 2s;
+}
+.con4bg .on3 {
+  opacity: 0;
+  transition: 2s;
+}
+.con4_1 {
+  width: 100%;
+  position: absolute;
+  top: 20%;
+  animation: move 30s linear infinite;
+  display: flex;
+}
+
+@keyframes move {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.con4_1 img {
+  width: 100%;
+}
+
+/*con4_2*/
+
+.con4_2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+}
+.con4_2 ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.con4_2 li {
+  width: 20%;
+  border-radius: 50%;
+  position: relative;
+  height: 350px;
+}
+.con4_2 li img {
+  width: 100%;
+  border-radius: 50%;
+}
+.con4_2 .showimg {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.con4_2 .more3 {
+  width: 30%;
+  height: 50px;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 55%;
+  left: 30%;
+  text-align: center;
+  opacity: 0;
+  transition: 0.5s;
+}
+.con4_2 .more3 a {
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+}
+
+.show1:hover .more3 {
+  opacity: 1;
+}
+.show1:hover img {
+  opacity: 0.5;
+  transition: 1s;
+}
+.show1:hover .mo {
+  opacity: 1;
+}
+
+.show2:hover .more3 {
+  opacity: 1;
+}
+.show2:hover img {
+  opacity: 0.5;
+  transition: 1s;
+}
+.show2:hover .mo {
+  opacity: 1;
+}
+
+.show3:hover .more3 {
+  opacity: 1;
+}
+.show3:hover img {
+  opacity: 0.5;
+  transition: 1s;
+}
+.show3:hover .mo {
+  opacity: 1;
+}
+
+.show4:hover .more3 {
+  opacity: 1;
+}
+.show4:hover img {
+  opacity: 0.5;
+  transition: 1s;
+}
+.show4:hover .mo {
+  opacity: 1;
+}
+.mo {
+  position: absolute;
+  top: 20%;
+  text-align: center;
+  opacity: 0;
+}
+.mo h2 {
+  color: #fff;
+}
+
+.mo p {
+  color: #fff;
+}
