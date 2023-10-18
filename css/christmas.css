@@ -1516,6 +1516,7 @@ line-height: 50px;
   .con5 {
     width: 100%;
     height: 73vw;
+    overflow-X:hidden;
   }
   .con5 > img {
     width: 100%;
