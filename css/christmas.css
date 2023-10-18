@@ -1570,7 +1570,7 @@ line-height: 50px;
     width: 100%;
     position: absolute;
     top: 10%;
-    animation: move 30s linear infinite;
+    /*animation: move 30s linear infinite;*/
     display: flex;
   }
 
