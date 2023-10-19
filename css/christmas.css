@@ -1918,7 +1918,7 @@ line-height: 50px;
   /*visual*/
   .visual {
     width: 100%;
-    height: 80vw;
+    height: 100vw;
     position: relative;
   }
   .visual > img {
@@ -1928,7 +1928,7 @@ line-height: 50px;
 
   .visualtext {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translateX(-50%);
     animation: text 1.1s 0.5s ease forwards;
@@ -2813,7 +2813,7 @@ line-height: 50px;
 
   .visual {
     width: 100%;
-    height: 80vw;
+    height: 100vw;
     position: relative;
   }
   .visual > img {
@@ -2823,7 +2823,7 @@ line-height: 50px;
 
   .visualtext {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translateX(-50%);
     animation: text 1.1s 0.5s ease forwards;
