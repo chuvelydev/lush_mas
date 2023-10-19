@@ -2813,7 +2813,7 @@ line-height: 50px;
 
   .visual {
     width: 100%;
-    height: 100vw;
+    height: 50vh;
     position: relative;
   }
   .visual > img {
@@ -2876,7 +2876,7 @@ line-height: 50px;
   }
   .visual .more {
     width: 15%;
-    height: 18px;
+    height: 25px;
     border: 2px solid #fff;
     position: absolute;
     top: 75%;
@@ -2886,7 +2886,6 @@ line-height: 50px;
     cursor: pointer;
     opacity: 0;
     animation: text2 1.1s 2s ease forwards;
-    margin-top: 3vw;
   }
 
   @keyframes text2 {
@@ -2902,8 +2901,8 @@ line-height: 50px;
   .visual .more a {
     color: #fff;
     width: 100%;
-    height: 18px;
-    line-height: 14px;
+    height: 25px;
+    line-height: 5vw;
     font-size: 1.7vw;
     display: block;
   }
@@ -3236,7 +3235,7 @@ opacity: 1;
   }
   .con3 .slide1 p {
     color: #fff;
-    font-size: 1vw;
+    font-size: 1.1vw;
   }
   .con3 .slide1img {
     width: 100%;
